@@ -1,0 +1,704 @@
+
+Request: GET /user at Fri Feb 19 2021 16:34:13 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogr@gmail.com"
+}
+Response Body:
+[
+	{
+		"id": 10,
+		"name": "rogerio",
+		"email": "rogerio@gmail.com",
+		"createdAt": "2021-02-19T19:30:34.000Z",
+		"updatedAt": "2021-02-19T19:30:34.000Z"
+	},
+	{
+		"id": 11,
+		"name": "rogerio",
+		"email": "rogero@gmail.com",
+		"createdAt": "2021-02-19T19:30:38.000Z",
+		"updatedAt": "2021-02-19T19:30:38.000Z"
+	}
+]
+Response: 200 49.793 ms 
+
+Request: GET /user at Fri Feb 19 2021 16:35:25 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response: 200 51.359 ms 
+
+Request: POST /user at Fri Feb 19 2021 16:35:38 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogr@gmail.com"
+}
+Response Body:
+{
+	"id": 14,
+	"name": "rogerio",
+	"email": "rogr@gmail.com",
+	"updatedAt": "2021-02-19T19:35:38.916Z",
+	"createdAt": "2021-02-19T19:35:38.916Z"
+}
+Response: 200 28.080 ms 
+
+Request: POST /user at Fri Feb 19 2021 16:37:31 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response Body:
+{
+	"id": 15,
+	"name": "rogerio",
+	"email": "rogasr@gmail.com",
+	"updatedAt": "2021-02-19T19:37:31.782Z",
+	"createdAt": "2021-02-19T19:37:31.782Z"
+}
+Response: 200 65.929 ms 
+
+Request: DELETE /user/14 at Fri Feb 19 2021 16:38:09 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response: - - ms 
+
+Request: DELETE /user/15 at Fri Feb 19 2021 16:39:06 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response: - - ms 
+
+Request: GET /user at Fri Feb 19 2021 16:50:03 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response: 200 47.105 ms 
+
+Request: POST /user at Fri Feb 19 2021 16:50:10 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response Body:
+{
+	"id": 16,
+	"name": "rogerio",
+	"email": "rogasr@gmail.com",
+	"updatedAt": "2021-02-19T19:50:10.396Z",
+	"createdAt": "2021-02-19T19:50:10.396Z"
+}
+Response: 200 26.618 ms 
+
+Request: GET /user/16 at Fri Feb 19 2021 16:50:21 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response Body:
+{
+	"id": 16,
+	"name": "rogerio",
+	"email": "rogasr@gmail.com",
+	"createdAt": "2021-02-19T19:50:10.000Z",
+	"updatedAt": "2021-02-19T19:50:10.000Z"
+}
+Response: 200 6.523 ms 
+
+Request: DELETE /user/16 at Fri Feb 19 2021 16:57:14 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response: - - ms 
+
+Request: GET /user at Fri Feb 19 2021 16:58:12 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response: 200 49.360 ms 
+
+Request: POST /user at Fri Feb 19 2021 16:58:20 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response Body:
+{
+	"id": 17,
+	"name": "rogerio",
+	"email": "rogasr@gmail.com",
+	"updatedAt": "2021-02-19T19:58:19.981Z",
+	"createdAt": "2021-02-19T19:58:19.981Z"
+}
+Response: 200 24.917 ms 
+
+Request: GET /user at Fri Feb 19 2021 17:01:48 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response: 200 48.971 ms 
+
+Request: POST /user at Fri Feb 19 2021 17:01:52 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response Body:
+{
+	"id": 18,
+	"name": "rogerio",
+	"email": "rogasr@gmail.com",
+	"updatedAt": "2021-02-19T20:01:52.438Z",
+	"createdAt": "2021-02-19T20:01:52.438Z"
+}
+Response: 200 53.612 ms 
+
+Request: DELETE /user/18 at Fri Feb 19 2021 17:02:11 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+Deletado
+Response: 200 20.728 ms 
+
+Request: POST /user/18 at Fri Feb 19 2021 17:12:10 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response: 404 1.887 ms 
+
+Request: POST /user at Fri Feb 19 2021 17:12:18 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogasr@gmail.com"
+}
+Response Body:
+{
+	"id": 19,
+	"name": "rogerio",
+	"email": "rogasr@gmail.com",
+	"updatedAt": "2021-02-19T20:12:18.475Z",
+	"createdAt": "2021-02-19T20:12:18.475Z"
+}
+Response: 200 59.128 ms 
+
+Request: POST /user at Fri Feb 19 2021 17:12:22 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogar@gmail.com"
+}
+Response Body:
+{
+	"id": 20,
+	"name": "rogerio",
+	"email": "rogar@gmail.com",
+	"updatedAt": "2021-02-19T20:12:22.645Z",
+	"createdAt": "2021-02-19T20:12:22.645Z"
+}
+Response: 200 11.140 ms 
+
+Request: POST /user at Fri Feb 19 2021 17:12:24 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rogr@gmail.com"
+}
+Response Body:
+{
+	"id": 21,
+	"name": "rogerio",
+	"email": "rogr@gmail.com",
+	"updatedAt": "2021-02-19T20:12:24.792Z",
+	"createdAt": "2021-02-19T20:12:24.792Z"
+}
+Response: 200 4.936 ms 
+
+Request: POST /user at Fri Feb 19 2021 17:12:27 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "ror@gmail.com"
+}
+Response Body:
+{
+	"id": 22,
+	"name": "rogerio",
+	"email": "ror@gmail.com",
+	"updatedAt": "2021-02-19T20:12:27.562Z",
+	"createdAt": "2021-02-19T20:12:27.562Z"
+}
+Response: 200 16.148 ms 
+
+Request: POST /user at Fri Feb 19 2021 17:12:29 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"name": "rogerio",
+	"email": "rr@gmail.com"
+}
+Response Body:
+{
+	"id": 23,
+	"name": "rogerio",
+	"email": "rr@gmail.com",
+	"updatedAt": "2021-02-19T20:12:29.922Z",
+	"createdAt": "2021-02-19T20:12:29.922Z"
+}
+Response: 200 15.497 ms 
+
+Request: GET /user at Fri Feb 19 2021 17:12:39 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+[
+	{
+		"id": 19,
+		"name": "rogerio",
+		"email": "rogasr@gmail.com",
+		"createdAt": "2021-02-19T20:12:18.000Z",
+		"updatedAt": "2021-02-19T20:12:18.000Z"
+	},
+	{
+		"id": 20,
+		"name": "rogerio",
+		"email": "rogar@gmail.com",
+		"createdAt": "2021-02-19T20:12:22.000Z",
+		"updatedAt": "2021-02-19T20:12:22.000Z"
+	},
+	{
+		"id": 21,
+		"name": "rogerio",
+		"email": "rogr@gmail.com",
+		"createdAt": "2021-02-19T20:12:24.000Z",
+		"updatedAt": "2021-02-19T20:12:24.000Z"
+	},
+	{
+		"id": 22,
+		"name": "rogerio",
+		"email": "ror@gmail.com",
+		"createdAt": "2021-02-19T20:12:27.000Z",
+		"updatedAt": "2021-02-19T20:12:27.000Z"
+	},
+	{
+		"id": 23,
+		"name": "rogerio",
+		"email": "rr@gmail.com",
+		"createdAt": "2021-02-19T20:12:29.000Z",
+		"updatedAt": "2021-02-19T20:12:29.000Z"
+	}
+]
+Response: 200 10.425 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:20:33 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 8.103 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:21:56 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 36285.290 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:22:44 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 21260.279 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:24:31 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 6.907 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:25:40 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 15.180 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:25:57 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 8.419 ms 
+
+Request: GET /user at Fri Feb 19 2021 17:26:21 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+[
+	{
+		"id": 19,
+		"name": "roger",
+		"email": "rogasr@gmail.com",
+		"createdAt": "2021-02-19T20:12:18.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 20,
+		"name": "ramom",
+		"email": "rogar@gmail.com",
+		"createdAt": "2021-02-19T20:12:22.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 21,
+		"name": "rogerio",
+		"email": "rogr@gmail.com",
+		"createdAt": "2021-02-19T20:12:24.000Z",
+		"updatedAt": "2021-02-19T20:12:24.000Z"
+	},
+	{
+		"id": 22,
+		"name": "rogerio",
+		"email": "ror@gmail.com",
+		"createdAt": "2021-02-19T20:12:27.000Z",
+		"updatedAt": "2021-02-19T20:12:27.000Z"
+	},
+	{
+		"id": 23,
+		"name": "rogerio",
+		"email": "rr@gmail.com",
+		"createdAt": "2021-02-19T20:12:29.000Z",
+		"updatedAt": "2021-02-19T20:12:29.000Z"
+	}
+]
+Response: 200 15.979 ms 
+
+Request: POST /user/updates at Fri Feb 19 2021 17:28:55 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response: 404 3.933 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:28:59 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19,
+		"name": "roger"
+	},
+	{
+		"id": 20,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 12.038 ms 
+
+Request: PUT /user at Fri Feb 19 2021 17:29:38 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+{
+	"id": 19,
+	"name": "roger"
+}
+Response Body:
+{
+	"id": 19,
+	"name": "roger",
+	"email": "rogasr@gmail.com",
+	"createdAt": "2021-02-19T20:12:18.000Z",
+	"updatedAt": "2021-02-19T20:24:32.000Z"
+}
+Response: 200 70.995 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 17:31:05 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 21,
+		"name": "roger"
+	},
+	{
+		"id": 22,
+		"name": "ramom"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 2.928 ms 
+
+Request: GET /user at Fri Feb 19 2021 17:33:01 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+[
+	{
+		"id": 19,
+		"name": "roger",
+		"email": "rogasr@gmail.com",
+		"createdAt": "2021-02-19T20:12:18.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 20,
+		"name": "ramom",
+		"email": "rogar@gmail.com",
+		"createdAt": "2021-02-19T20:12:22.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 21,
+		"name": "roger",
+		"email": "rogr@gmail.com",
+		"createdAt": "2021-02-19T20:12:24.000Z",
+		"updatedAt": "2021-02-19T20:31:05.000Z"
+	},
+	{
+		"id": 22,
+		"name": "ramom",
+		"email": "ror@gmail.com",
+		"createdAt": "2021-02-19T20:12:27.000Z",
+		"updatedAt": "2021-02-19T20:31:05.000Z"
+	},
+	{
+		"id": 23,
+		"name": "rogerio",
+		"email": "rr@gmail.com",
+		"createdAt": "2021-02-19T20:12:29.000Z",
+		"updatedAt": "2021-02-19T20:12:29.000Z"
+	}
+]
+Response: 200 81.586 ms 
+
+Request: DELETE /user/22 at Fri Feb 19 2021 17:55:26 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+Deletado
+Response: 200 102.694 ms 
+
+Request: GET /user at Fri Feb 19 2021 18:01:43 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+[
+	{
+		"id": 19,
+		"name": "roger",
+		"email": "rogasr@gmail.com",
+		"createdAt": "2021-02-19T20:12:18.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 20,
+		"name": "ramom",
+		"email": "rogar@gmail.com",
+		"createdAt": "2021-02-19T20:12:22.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 21,
+		"name": "roger",
+		"email": "rogr@gmail.com",
+		"createdAt": "2021-02-19T20:12:24.000Z",
+		"updatedAt": "2021-02-19T20:31:05.000Z"
+	},
+	{
+		"id": 23,
+		"name": "rogerio",
+		"email": "rr@gmail.com",
+		"createdAt": "2021-02-19T20:12:29.000Z",
+		"updatedAt": "2021-02-19T20:12:29.000Z"
+	}
+]
+Response: 200 19.308 ms 
+
+Request: PUT /user/updates at Fri Feb 19 2021 18:02:38 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 21,
+		"name": "amor"
+	},
+	{
+		"id": 23,
+		"name": "amor2"
+	}
+]
+Response Body:
+[
+	{},
+	{}
+]
+Response: 200 3.664 ms 
+
+Request: GET /user at Fri Feb 19 2021 18:02:51 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Response Body:
+[
+	{
+		"id": 19,
+		"name": "roger",
+		"email": "rogasr@gmail.com",
+		"createdAt": "2021-02-19T20:12:18.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 20,
+		"name": "ramom",
+		"email": "rogar@gmail.com",
+		"createdAt": "2021-02-19T20:12:22.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 21,
+		"name": "amor",
+		"email": "rogr@gmail.com",
+		"createdAt": "2021-02-19T20:12:24.000Z",
+		"updatedAt": "2021-02-19T21:02:38.000Z"
+	},
+	{
+		"id": 23,
+		"name": "amor2",
+		"email": "rr@gmail.com",
+		"createdAt": "2021-02-19T20:12:29.000Z",
+		"updatedAt": "2021-02-19T21:02:38.000Z"
+	}
+]
+Response: 200 8.250 ms 
+
+Request: PUT /user/destroy at Fri Feb 19 2021 19:02:41 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 21
+	},
+	{
+		"id": 23
+	}
+]
+Response Body:
+Deletados
+Response: 200 9.694 ms 
+
+Request: GET /user at Fri Feb 19 2021 19:02:53 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 21
+	},
+	{
+		"id": 23
+	}
+]
+Response Body:
+[
+	{
+		"id": 19,
+		"name": "roger",
+		"email": "rogasr@gmail.com",
+		"createdAt": "2021-02-19T20:12:18.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	},
+	{
+		"id": 20,
+		"name": "ramom",
+		"email": "rogar@gmail.com",
+		"createdAt": "2021-02-19T20:12:22.000Z",
+		"updatedAt": "2021-02-19T20:24:32.000Z"
+	}
+]
+Response: 200 8.443 ms 
+
+Request: PUT /user/destroy at Fri Feb 19 2021 19:03:52 GMT-0300, IP: ::1, User Agent: PostmanRuntime/7.26.10
+Request Body:
+[
+	{
+		"id": 19
+	},
+	{
+		"id": 20
+	}
+]
+Response Body:
+Deletados
+Response: 200 3.276 ms 
